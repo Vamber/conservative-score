@@ -1,0 +1,78 @@
+
+.css-typing p {
+  border-right: .15em solid black;
+  font-family: monospace;
+  font-size: 2em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.css-typing p:nth-child(1) {
+  width: 24.3em;
+  font-size : 2.2em;
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 20.5em;
+  font-size : 2.0em;
+  opacity: 0;
+  animation: type2 1.5s steps(40, end);
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 10.3em;
+  font-size : 2em;
+  opacity: 0;
+  animation: type2 1.5s steps(20, end);
+  animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em;
+  }
+  100% {
+    border: none;
+  }
+}
+
+
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+
+
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+

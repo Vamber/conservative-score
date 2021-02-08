@@ -1,0 +1,152 @@
+#score {
+  position: absolute;
+  animation: 2s fadeInscore;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  top : 110px;
+  left: 680px;
+}
+
+#scoreBar{
+  visibility: hidden;
+  animation: 4s fadeInscore;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeInscore {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+#reference {
+  font-family: monospace;
+  position: absolute;
+  top: 370px;
+  left: 610px;
+  font-size: 20px;
+  color :silver;
+  visibility: hidden;
+  animation: 6s fadeInscore;
+  animation-fill-mode: forwards;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+
+  /*This part is important for centering*/
+  position: absolute;
+  top: 50px;
+  left: 530px;
+  color : white;
+}
+
+.css-typing p {
+  border-right: .15em solid black;
+  font-family: monospace;
+  font-size: 2em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.css-typing p:nth-child(1) {
+  width: 24.3em;
+  font-size : 2.2em;
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em;
+  }
+  100% {
+    border: none;
+  }
+}
+
+
+
+
+
+
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+

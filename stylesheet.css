@@ -1,0 +1,132 @@
+body {
+  background-color: #191919;
+	color: white;
+	width: 95%;
+	margin: 0 auto;
+
+
+  
+}
+
+
+li {
+  list-style:none;
+}
+
+h1 {
+  color: white;
+}
+h2{
+  color : Gainsboro;
+  font-size: 20px;
+}
+
+button {
+      width: 220px;
+      font-size: 20px;
+      margin:12px 0;
+      padding: 10px 0;
+      background-color: transparent;
+      color: grey;
+      border-radius: 100px;
+      border-color: white;
+      outline: none;
+}
+
+button:hover {
+      background-color: white;
+      opacity: 70%;
+}
+
+#container0 {
+  width: 900px;
+  height: 2px;
+  background-color: red;
+}
+
+#container1 {
+  position: absolute;
+  top:0px;
+  left : 970px;
+  width: 400px;
+  height: 2px;
+  background-color: blue;
+}
+
+#container2 {
+  position: absolute;
+  bottom: 0px;
+  width: 900px;
+  height: 2px;
+  background-color: blue;
+}
+
+#container3 {
+  position: absolute;
+  bottom: 0px;
+  left: 970px;
+  width: 400px;
+  height: 2px;
+  background-color: red;
+}
+
+#container4 {
+  position: absolute;
+  top: 2px;
+  width: 900px;
+  height: 2px;
+  background-color: #FF6666;
+}
+
+#container5 {
+  position: absolute;
+  top: 2px;
+  left: 970px;
+  width: 400px;
+  height: 2px;
+  background-color: #3399FF;
+  
+}
+
+#container6 {
+  position: absolute;
+  bottom: 2px;
+  left: 970px;
+  width: 400px;
+  height: 2px;
+  background-color: #FF6666;
+  
+}
+
+#container7 {
+  position: absolute;
+  bottom: 2px;
+  width: 900px;
+  height: 2px;
+  background-color: #3399FF;
+  
+}
+
+
+
+
+
+
+img {
+  text-align: center;
+	border-radius: 5px;
+  border-color: green;
+}
+
+#game {
+  position: absolute;
+  top:200px;
+  left:100px;
+
+}
+h2 {
+  width: 800px;
+}
+
+
+
